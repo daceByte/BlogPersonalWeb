@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Personal</title>
+    <meta
+      name="description"
+      content="Este es el blog personal de Alejandro Cardenas."
+    />
+    <meta name="keywords" content="blog personal, dace, alejandro cardenas" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="computer">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="studies.html">Estudios</a></li>
+        <li><a href="data.html">Datos curiosos</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+      <ul class="mobile">
+        <input type="checkbox" class="none" id="menu">
+        <li>
+          <label for="menu">
+            <img
+              src="/assets/menu.png"
+              class="icon-menu"
+              alt="Icono de menu pagina web"
+            /><span class="menu-text-mobile">Menu</span>
+          </label>
+        </li>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="studies.html">Estudios</a></li>
+        <li><a href="data.html">Datos curiosos</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="flex justify-center w-full">
+        <div class="grid">
+          <div class="carnet">
+            <div class="foto">
+              <img src="assets/profile.jpg" alt="Foto del usuario" />
+            </div>
+            <div class="info">
+              <h2>Diego Alejandro Cardenas Espinosa</h2>
+              <p class="id">Ciudad: Florencia</p>
+              <p>Fecha de nacimiento: 04/02/2003</p>
+              <p>Estudiante de la Univerisdad de la Amazonia</p>
+            </div>
+          </div>
+          <div class="presentation shadow flex align-center">
+            <p class="justify-text">
+              Bienvenidos al blog personal de Diego Alejandro Cárdenas Espinosa.
+              Aquí encontrarás todo tipo de información sobre mí, desde mis
+              intereses personales hasta formas de contactarme. Además,
+              descubrirás datos curiosos que te permitirán conocerme mejor.
+              ¡Gracias por visitar!
+            </p>
+          </div>
+          <div class="presentation shadow flex align-center flex-col">
+            <img
+              class="icon-presentation"
+              src="assets/ajedrez.png"
+              alt="Ficha de ajedrez"
+            />
+            <a class="ancla" href="hobbies.html">Hobbies</a>
+          </div>
+          <div class="presentation shadow flex align-center">
+            <p class="justify-text">
+              Este blog ha sido construido utilizando HTML y CSS como parte del
+              proyecto final de la materia de Programación Web, perteneciente a
+              la carrera de Ingeniería de Sistemas. Aquí se aplican los
+              conceptos fundamentales de diseño y desarrollo web adquiridos a lo
+              largo del curso.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
